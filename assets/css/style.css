@@ -1,0 +1,148 @@
+body {
+    background-color: #faf3e1;
+    margin: 0;
+  }
+  .header_container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .container {
+    margin: 0px 20px;
+  }
+
+  .container_logo {
+    display: flex;
+  }
+  .grown_image {
+    margin: 12px 0;
+    width: 30px;
+    height: 30px;
+  }
+
+  .grown_title {
+    margin: 15px 10px;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    color: #20201f;
+  }
+
+  .menu_list {
+    margin: 22px 0px;
+    list-style: none;
+  }
+
+  .menu_list li a {
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    padding: 8px 25px;
+    border-radius: 12px;
+    font-size: 14px;
+    background-color: #20201f;
+    color: #fff;
+  }
+
+  .container_first_content {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 50%);
+    gap: 500;
+  }
+  .title_page {
+    margin: 0px;
+    font-family: "Oswald", sans-serif;
+    color: #20201f;
+    font-size: 65px;
+  }
+
+  .description_page {
+    font-family: "Oswald", sans-serif;
+    color: #2b2b2a;
+  }
+
+  .contact_button {
+    margin-top: 10px;
+    padding: 10px 35px;
+    border: 1px solid #20201f;
+    background-color: #FEC447;
+    border-radius: 8px;
+    box-shadow: 5px 4px 0 0 rgba(0, 0, 0, 1);
+  }
+
+  .container_text_info {
+    text-align: center;
+  }
+
+  .title_info {
+    color: #20201f;
+    font-size: 40px;
+    margin-bottom: 0;
+    font-family: "Oswald", sans-serif;
+  }
+
+  .text_info {
+    color: #2b2b2a;
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-family: "Oswald", sans-serif;
+  }
+
+  .container_cards {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 30%);
+  }
+  .first_card {
+    background-color: #9bd3d0;
+    padding: 30px;
+    border: 1px solid #20201f;
+    margin: 40px 15px;
+    border-radius: 12px;
+    box-shadow: -5px 4px 0 0 rgba(0, 0, 0, 1);
+  }
+
+  .second_card {
+    background-color: #feccb5;
+    padding: 30px;
+    border: 1px solid #20201f;
+    margin: 40px 15px;
+    border-radius: 12px;
+    box-shadow: -5px 4px 0 0 rgba(0, 0, 0, 1);
+  }
+
+  .third_card {
+    background-color: #fec447;
+    padding: 30px;
+    border: 1px solid #20201f;
+    margin: 40px 15px;
+    border-radius: 12px;
+    box-shadow: -5px 4px 0 0 rgba(0, 0, 0, 1);
+  }
+
+  .card_image {
+    width: 60px;
+  }
+
+  .card_title {
+    color: #000;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: "Oswald", sans-serif;
+  }
+
+  .card_content {
+    color: #2b2b2a;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: "Oswald", sans-serif;
+  }
+
+  .empty_content {
+    background-color: #20201f;
+    height: 100px;
+    width: 100%;
+    margin-top: 50px;
+  }
